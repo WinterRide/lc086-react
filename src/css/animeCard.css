@@ -1,0 +1,85 @@
+h5 {
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    margin-top: 10%;
+}
+
+.card-container .score {
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+}
+
+.content{
+    background-color: #233D4D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 4px grey;
+    overflow: hidden;
+    height: 300px;
+    width: 210px;
+}
+
+.content .image {
+    top: 0;
+    background-color: red;
+    height: 70%;
+    width: 100%;
+}
+
+.content .title {
+    display: flex;
+    background-color: black;
+    height: 30%;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .title p {
+    position: relative;
+    margin-bottom: 0;
+    background-color: black;
+    margin: 0.5rem;
+}
+
+.content .score-amount {
+    background-color: black;
+    opacity: 0.8;
+    border-top-right-radius: 0.5rem;
+}
+
+.content .score-amount p {
+    background-color: black;
+    margin-left: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.pagination button{
+    color: white;
+    margin-left: 4rem;
+}
+
+.pagination span {
+    color: white;
+    margin-left: 5rem;
+}
+
+.footer{
+    height: 5rem;
+}

@@ -1,0 +1,27 @@
+.bar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: grey;
+    background-color: white;
+    width: 100%;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.bar .icon .material-symbols-outlined {
+    color: grey;
+    text-decoration: none;
+    background-color: white;
+    font-size: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

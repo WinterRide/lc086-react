@@ -1,0 +1,21 @@
+.footer{
+    height: 5rem;
+}
+
+.search-bar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.search-bar input {
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 0.3rem;
+    border-color: white;
+    width: 60%;
+    padding: 1rem;
+}

@@ -1,0 +1,39 @@
+.footer{
+    height: 5rem;
+}
+
+h3 {
+    display: flex;
+    position: relative;
+    top: 10rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.remove-favorite-button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.remove-favorite-button button {
+    display: flex;
+    color: white;
+    background-color: #A31621;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}

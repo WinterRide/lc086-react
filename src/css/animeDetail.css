@@ -1,0 +1,41 @@
+h5 {
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+span, p{
+    margin-left: 1rem;
+    color: white;
+    font-size: small;
+}
+
+.description-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-size: small;
+}
+
+.image-detail img {
+    width: 150px;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.footer{
+    height: 6rem;
+}
+
+.image-detail button{
+    padding: 0.5rem;
+    background-color: #2E933C;
+    color: white;
+    border-radius: 0.3rem;
+    border-color: #2E933C;
+}
